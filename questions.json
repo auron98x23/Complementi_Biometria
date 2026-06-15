@@ -2884,89 +2884,878 @@
         ],
         "giusta": "Vero e formano una gerarchia di concetti."
     },
-    "totali": 347,
+   "348": {
+        "domanda": "Rispetto ad una generica applicazione biometrica per identificazione o screening, analizzando i valori delle Cumulative Match Characteristic (CMC) di diversi produttori, su quale sistema conviene probabilmente orientare la scelta?",
+        "risposte": [
+            "Sistema C: CMC(1) = 32%, CMC(10) = 90%",
+            "Sistema B: CMC(1) = 28%, CMC(30) = 99.8%",
+            "Sistema D: CMC(1) = 27%, CMC(10) = 99.5%",
+            "Sistema A: CMC(1) = 30%, CMC(30) = 90%"
+        ],
+        "giusta": "Sistema D: CMC(1) = 27%, CMC(10) = 99.5%"
+    },
+    "349": {
+        "domanda": "Rispetto alla ISO/IEC 19795 Biometric Performance Testing and Reporting, quale delle seguenti strategia di valutazione corrisponde alla strategia chiamata \"Technology\"?",
+        "risposte": [
+            "Creare delle stanze attrezzate dove vengono alloggiate diverse tecnologie che potrebbero essere impiegate nella applicazione in esame che saranno provate con un ristretto gruppo di volontari per verificare le soluzioni pi\u00f9 adatte.",
+            "Creare un appalto rivolto ai diversi produttori che una volta recepiti i requisiti tecnologici esprimeranno le migliori offerte economiche che verranno valutate in una seconda fase della selezione",
+            "Usare database pubblici di sample biometrici per effettuare test algoritmici",
+            "Un sistema biometrico completo e tarato direttamente installato nella applicazione finale e usato con una porzione di utenti che accettano di provare il sistema dietro compilazione di un apposito modulo informativo"
+        ],
+        "giusta": "Usare database pubblici di sample biometrici per effettuare test algoritmici"
+    },
+    "350": {
+        "domanda": "Nei sistemi ottici per l'acquisizione biometrica \u00e8 possibile trovare:",
+        "risposte": [
+            "aberrazione sferica",
+            "aberrazione cromatica",
+            "entrambe le aberrazioni",
+            "nessuna delle altre opzioni in quanto sono problemi riscontrabili nelle ottiche fotografiche e non di competenza dei sistemi biometrici"
+        ],
+        "giusta": "entrambe le aberrazioni"
+    },
+    "351": {
+        "domanda": "La distribuzione delle distanze di Hamming di comparazioni di IRISCODE sono simmetriche",
+        "risposte": [
+            "se i test vengono eseguiti in condizioni ottimali in laboratorio con utenti allenati alla acquisizione.",
+            "se vengono considerati degli shift dei bit fra le stringhe e viene selezionata la minore distanza ottenuta.",
+            "se le stringhe sono lunghe almeno 249 bit.",
+            "nessuna delle altre risposte"
+        ],
+        "giusta": "nessuna delle altre risposte"
+    },
+    "352": {
+        "domanda": "Rispetto al contesto discusso a lezione, qual \u00e8 la tecnica che produce immagini sintetiche create utilizzando due input, in cui un criminale combina caratteristiche da un volto, come il movimento, con l'aspetto di un altro volto per creare un nuovo output video sintetico usando modelli anche tridimensionali. L'output presenta le caratteristiche dei tratti facciali dell'individuo genuino",
+        "risposte": [
+            "Fully-generated images",
+            "Face swaps",
+            "PCA-based image",
+            "Nessun delle altre opzioni"
+        ],
+        "giusta": "Face swaps"
+    },
+    "353": {
+        "domanda": "Un sistema biometrico utilizza DUE IMMAGINI di due impronte digitali per estrarre le Minutiae. Successivamente, queste informazioni vengono combinate per eseguire il riconoscimento. In base a esperimenti e confronti adeguati, quale risultato ci si pu\u00f2 aspettare in termini di accuratezza rispetto ad altre configurazioni?",
+        "risposte": [
+            "Buona accuratezza, maggiore rispetto ad usare una sola impronta ma estraendo le Minutiae e il Cylinder Code e combinando le informazioni estratte",
+            "Buona accuratezza, minore rispetto ad usare una sola impronta ma estraendo le Minutiae e il Cylinder Code e combinando le informazioni estratte",
+            "Buona accuratezza, maggiore rispetto ad usare tre impronte diverse e combinando le informazioni estratte visto che oltre due impronte non si migliora ulteriormente l\u2019accuratezza come dimostrato nelle applicazioni commerciali.",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Buona accuratezza, maggiore rispetto ad usare una sola impronta ma estraendo le Minutiae e il Cylinder Code e combinando le informazioni estratte"
+    },
+    "354": {
+        "domanda": "Nella curva DET di un sistema biometrico in quale regione si trovano le applicazioni FORENSI quando nelle fasi iniziali dalle evidenze raccolte si cerca di rintracciare eventuali persone coinvolte?",
+        "risposte": [
+            "Basso FNMR, alto FMR",
+            "La curva DET stima parametri diversi da quelli che servono per verificare se il sistema \u00e8 adatto per applicazioni di forensi",
+            "Medio FNMR, medio FMR",
+            "Alto FNMR, basso FMR"
+        ],
+        "giusta": "Basso FNMR, alto FMR"
+    },
+    "355": {
+        "domanda": "Secondo il modello discusso a lezione di Paul Ekman della classificazione delle emozioni, esso identifica, oltre allo stato neutro, quante emozioni principali (nota: se le emozioni fossero NEUTRA, EMOZIONE1, EMOZIONE2?, la risposta sarebbe 2)?",
+        "risposte": [
+            "7",
+            "4",
+            "6",
+            "5",
+            "8",
+            "9"
+        ],
+        "giusta": "6"
+    },
+    "356": {
+        "domanda": "Nel contesto della discussione fatta in classe, immaginando di avere a disposizione degli istogrammi rappresentanti le frequenze dello score match dei genuini e degli impostori ottenuti attraverso un insieme di N volontari con M sample per individuo, tenendo conto della cardinalit\u00c3\u00a0 tipica dei confronti possibili in questo tipo di valutazioni, quale dei seguenti casi \u00e8 pi\u00f9 probabile che sia vero per un valore tipico della soglia T disposta a separare i genuini dagli impostori?",
+        "risposte": [
+            "Il FNMR(T) ha sicuramente un valore maggiore a FMR(T), indipendentemente dal numero di confronti possibili",
+            "Il FNMR(T) tende ad avere un intervallo di confidenza pi\u00f9 largo rispetto a FMR(T) in quanto le comparazioni possibili fra genuini sono minori di quelle degli impostori",
+            "Il FNMR(T) tende ad avere n intervallo di confidenza pi\u00f9 stretto rispetto a FMR(T) in quanto le comparazioni possibili fra genuini sono minori di quelle degli impostori",
+            "Il FNMR(T) ha sicuramente un valore inferiore a FMR(T), indipendentemente dal numero di confronti possibili"
+        ],
+        "giusta": "Il FNMR(T) tende ad avere un intervallo di confidenza pi\u00f9 largo rispetto a FMR(T) in quanto le comparazioni possibili fra genuini sono minori di quelle degli impostori"
+    },
+    "357": {
+        "domanda": "Nell'ambito dell'apprendimento delle reti Deep in applicazioni biometriche, quale tecnica di difesa \u00e8 nota per migliorare la robustezza di un modello di machine learning agli attacchi avversari?",
+        "risposte": [
+            "Addestramento esclusivamente su dataset molto ampi.",
+            "Aumentare il numero di parametri nel modello.",
+            "Aumentare il numero di strati nascosti nel modello.",
+            "Addestramento avversario, correggendo le vulnerabilit\u00c3\u00a0 inserendo nei dati di apprendimento esempi avversari."
+        ],
+        "giusta": "Addestramento avversario, correggendo le vulnerabilit\u00c3\u00a0 inserendo nei dati di apprendimento esempi avversari."
+    },
+    "358": {
+        "domanda": "Rispetto al contesto discusso a lezione sui deepfake, le tecniche di voice cloning sono da considerarsi",
+        "risposte": [
+            "Non sono tecniche applicabili in contesti di sicurezza ma principalmente nel miglioramento della voce in tecniche multimediale",
+            "Tecniche illecite",
+            "Tecniche che possono essere lecite o diventare illecite in base al loro utilizzo",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Tecniche che possono essere lecite o diventare illecite in base al loro utilizzo"
+    },
+    "359": {
+        "domanda": "Nella tassonomia dei tipi di attacco di un sistema biometrico quali di queste tecniche \u00e8 considerata un attacco diretto al sistema?",
+        "risposte": [
+            "Cavallo di Troia.",
+            "Override della risposta di autenticazione.",
+            "Spoofing.",
+            "Nessuna della altre opzioni.",
+            "Sostituzione di un template nel DB del sistema.",
+            "Tutte le altre opzioni (tranne \"Nessuna delle altre opzioni\")."
+        ],
+        "giusta": "Spoofing."
+    },
+    "360": {
+        "domanda": "Relativo alla tassonomia degli attacchi avversari per i sistemi biometrici discussa a lezione quale delle seguenti tipologie \u00e8 definita nel seguente modo: \"Attacchi che modificano i DATI DI ADDESTRAMENTO per aggiungere un backdoor. Per esempio, modelli di addestramento impercettibili creano backdoor che controllano i modelli\"?",
+        "risposte": [
+            "Avvelenamento",
+            "Nessuna delle altre opzioni",
+            "Evasione",
+            "Inferenza",
+            "Estrazione"
+        ],
+        "giusta": "Avvelenamento"
+    },
+    "361": {
+        "domanda": "Rispetto alla tassonomia degli attacchi avversari per i sistemi biometrici discussa a lezione quali delle seguenti tipologie è definita nel seguente modo: 'Attacchi che RUBANO un modello proprietario. Ad esempio, gli attacchi possono interrogare regolarmente un modello per estrarre informazioni preziose'?",
+        "risposte": [
+            "Nessuna delle altre opzioni",
+            "Avvelenamento",
+            "Evasione",
+            "Estrazione",
+            "Inferenza"
+        ],
+        "giusta": "Estrazione"
+    },
+    "362": {
+        "domanda": "Il contesto di applicazione della Cumulative Match Characteristic si riferisce a",
+        "risposte": [
+            "Identificazione",
+            "Verifica",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Identificazione"
+    },
+    "363": {
+        "domanda": "Negli approcci di deeplearning applicati alla biometria basata sulle immagini con CNN tipicamente",
+        "risposte": [
+            "Si preferiscono reti di grandi dimensioni con un numero elevato di strati",
+            "Si preferiscono reti di piccole dimensioni con un numero limitato di strati",
+            "Si preferiscono reti di medie dimensioni per evitare l'overfitting",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Si preferiscono reti di grandi dimensioni con un numero elevato di strati"
+    },
+    "364": {
+        "domanda": "In applicazioni biometriche, i modelli di deeplearning non risentono particolarmente della dimensione del dataset di apprendimento e possono essere applicati direttamente a piccoli e grandi dataset.",
+        "risposte": [
+            "Vero in quanto le reti CNN superano questo problema",
+            "Falso",
+            "Vero in quanto gli autoencoders superano questo problema"
+        ],
+        "giusta": "Falso"
+    },
+    "365": {
+        "domanda": "L'applicazione da risolvere richiede la valutazione della distribuzione degli impostori in una regione dove la frequenza degli errori \u00e8 10-7 (1 parte su 10 milioni). Nel contesto della discussione fatta in classe, quale delle seguenti opzioni \u00e8 considerata pi\u00f9 corretta?",
+        "risposte": [
+            "Stimare la distribuzione usando l'approccio basato sul calcolo delle probabilit\u00c3\u00a0 utilizzando volontari con N=100",
+            "Stimare la distribuzione usando le curve presenti in letteratura per sistemi equivalenti o nel datasheet del produttore nella regione di funzionamento richiesta",
+            "Stimare la distribuzione usando l'approccio basato sul calcolo delle probabilit\u00c3\u00a0 utilizzando volontari con N=500",
+            "Stimare la distribuzione usando l'approccio basato sulla inferenza statistica utilizzando volontari con N=500",
+            "Stimare la distribuzione usando l'approccio basato sulla inferenza statistica utilizzando volontari con N=300"
+        ],
+        "giusta": "Stimare la distribuzione usando le curve presenti in letteratura per sistemi equivalenti o nel datasheet del produttore nella regione di funzionamento richiesta"
+    },
+    "366": {
+        "domanda": "La scelta di una telecamera con doppio tempo di esposizione \u00e8 utile nei casi di pi\u00f9 soggetti IN MOVIMENTO in regioni della immagini che vengono riprodotte con gamma colori estreme fra loro.",
+        "risposte": [
+            "Falso",
+            "Vero"
+        ],
+        "giusta": "Falso"
+    },
+
+
+
+    "367": {
+        "domanda": "La funzione di \u201chigh dynamic range\u201d in un sensore di visione serve",
+        "risposte": [
+            "A realizzare un range di luminanza maggiore e pi\u00f9 simile a quello percepito dall'occhio umano.",
+            "Ad avere dati utili da regioni ad alta e bassa luminosit\u00e0 nella immagine evitando saturazione e rumore.",
+            "Tutte e due le precedenti",
+            "Nessuna delle precedenti"
+        ],
+        "giusta": "Tutte e due le precedenti"
+    },
+    "368": {
+        "domanda": "Quali delle affermazioni che seguono sono pi\u00f9 corrette?",
+        "risposte": [
+            "Con immagini ottenute ad ampio angolo di visuale \u00e8 pi\u00f9 facile acquisire pi\u00f9 tratti biometrici.",
+            "Con sensori con maggiore numero di bit per pixel si possono impiegare algoritmi migliori di enhancement e filtraggio.",
+            "Con sensori con maggiore risoluzione si possono analizzare del tratto biometrico scale o livelli diversi.",
+            "Tutte e due le precedenti",
+            "Nessuna delle precedenti"
+        ],
+        "giusta": "Tutte e due le precedenti"
+    },
+    "369": {
+        "domanda": "In accordo alla definizione della norma ISO/IEC 2382-37, un \u201cIdentity concealer\u201d \u00e8 \u2026",
+        "risposte": [
+            "Un individuo che per sbaglio prova ad essere ammesso da un sistema biometrico in buona fede, non accorgendosi che non doveva presentare il suo tratto.",
+            "Un individuo che, usando una maschera, prova ad essere identificato come un individuo registrato nel sistema per entrare.",
+            "Un individuo che prova ad impersonificare un utente registrato, atteggiandosi e vestendosi in modo simile, anche usando un opportuno make-up.",
+            "Nessuna delle altre opzioni descrive correttamente la figura di un \u201cIdentity concealer\u201d"
+        ],
+        "giusta": "Nessuna delle altre opzioni descrive correttamente la figura di un \u201cIdentity concealer\u201d"
+    },
+    "370": {
+        "domanda": "Quale sistema seguente o sistemi seguenti possono essere considerati come sistemi di classificazione eventualmente creabili con sistemi di apprendimento automatico?",
+        "risposte": [
+            "Sistema di reiezione di iridi a qualit\u00e0 non conforme prima dell\u2019enrollment",
+            "Sistema di soft-biometrics che identifica la persona come maggiorenne o minorenne",
+            "Tutte le altre opzioni",
+            "Sistema di indicizzazione di un\u2019impronta digitale"
+        ],
+        "giusta": "Tutte le altre opzioni"
+    },
+    "371": {
+        "domanda": "In un sistema di Inverse Turing Test, siano s1 = s_context, s2 = s_reCAPTCHA e s3 = s_behavior tre score prodotti da moduli diversi. Se la fusione \u00e8 definita come s_fused = F(s1, s2, s3), quale interpretazione \u00e8 corretta?",
+        "risposte": [
+            "La funzione F serve esclusivamente a generare un nuovo puzzle pi\u00f9 difficile da sottoporre all\u2019utente prima della classificazione.",
+            "Il sistema combina score eterogenei provenienti da contesto, reCAPTCHA e biometria comportamentale per ottenere una decisione finale binaria umano/bot.",
+            "Il sistema usa s1, s2 e s3 come identit\u00e0 candidate e assegna l\u2019utente alla classe 11, 12 o 13 tramite identificazione chiusa sulla base del valore s_fused.",
+            "L\u2019uscita della funzione rappresenta il numero di tentativi consentiti all\u2019utente prima di bloccare la sessione."
+        ],
+        "giusta": "Il sistema combina score eterogenei provenienti da contesto, reCAPTCHA e biometria comportamentale per ottenere una decisione finale binaria umano/bot."
+    },
+    "372": {
+        "domanda": "Nei sistemi biometrici multimodali, quale affermazione descrive correttamente il metodo di fusione a livello di rango?",
+        "risposte": [
+            "La fusione a livello di rango utilizza direttamente i punteggi originali delle modalit\u00e0 biometriche per calcolare una media aritmetica.",
+            "La fusione a livello di rango combina i punteggi di corrispondenza biometrici convertendoli in un valore binario (vero/falso).",
+            "La fusione a livello di rango \u00e8 applicabile solo nei sistemi monomodali per migliorare l\u2019identificazione.",
+            "La fusione a livello di rango assegna un numero intero (rango) ai punteggi delle modalit\u00e0 biometriche e consolida i risultati ordinando i ranghi."
+        ],
+        "giusta": "La fusione a livello di rango assegna un numero intero (rango) ai punteggi delle modalit\u00e0 biometriche e consolida i risultati ordinando i ranghi."
+    },
+    "373": {
+        "domanda": "Una delle tecniche per progettare sistemi biometrici avanzati consiste nello scegliere delle soglie di accettazione personalizzate per ogni singolo utente.",
+        "risposte": [
+            "\u00c8 vero, infatti \u00e8 possibile calcolare la soglia usando la soglia utilizzata da utenti simili a lui in sistemi biometrici pubblici disponibili su repository e siti dei produttori.",
+            "\u00c8 vero, infatti \u00e8 possibile calcolare le distanze fra i sample dello stesso utente e degli altri utenti e ottimizzare il valore del FAR del singolo utente.",
+            "\u00c8 falso, perch\u00e9 \u00e8 sempre necessario fissare un valore di soglia di accettazione uguale per tutti per questioni di uniformit\u00e0.",
+            "\u00c8 falso, perch\u00e9 questo non garantirebbe la necessaria interoperabilit\u00e0 che un sistema biometrico moderno deve ormai avere per essere al passo con lo stato dell\u2019arte.",
+            "\u00c8 falso, perch\u00e9 le soglie personalizzate richiederebbero di memorizzare troppe informazioni sugli utenti, compromettendo la privacy."
+        ],
+        "giusta": "\u00c8 vero, infatti \u00e8 possibile calcolare le distanze fra i sample dello stesso utente e degli altri utenti e ottimizzare il valore del FAR del singolo utente."
+    },
+    "374": {
+        "domanda": "La valutazione della stima dell\u2019errore del sistema biometrico a partire da valori ottenuti di matching fra immagini di impostori e genuini rappresenta cosa?",
+        "risposte": [
+            "Rappresenta una applicazione di inferenza statistica",
+            "Rappresenta una applicazione del calcolo delle probabilit\u00e0",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Rappresenta una applicazione di inferenza statistica"
+    },
+    "375": {
+        "domanda": "Rispetto alla tassonomia degli attacchi avversari per i sistemi biometrici discussa a lezione, quale delle seguenti tipologie \u00e8 definita nel seguente modo: \n\u201cAttacchi che OTTENGONO informazioni su dati privati. Ad esempio, un attacco pu\u00f2 derivare propriet\u00e0 dei dati di addestramento del modello fino a identificare singole voci di dati\u201d?",
+        "risposte": [
+            "Nessuna delle altre opzioni",
+            "Estrazione",
+            "Avvelenamento",
+            "Inferenza",
+            "Evasione"
+        ],
+        "giusta": "Inferenza"
+    },
+    "376": {
+        "domanda": "Secondo il testo riportato sul nuovo art. 612-quater c.p., quale pena base \u00e8 prevista per chi diffonde senza consenso contenuti falsificati o alterati con IA idonei a indurre in inganno sulla loro genuinit\u00e0?",
+        "risposte": [
+            "Interdizione dai pubblici uffici.",
+            "La reclusione da due a sei mesi.",
+            "La sola multa, senza pena detentiva.",
+            "La reclusione da uno a cinque anni."
+        ],
+        "giusta": "La reclusione da uno a cinque anni."
+    },
+    "377": {
+        "domanda": "Quale dei seguenti metodi NON appartiene alle famiglie di approcci citate per la Proof of Personhood?",
+        "risposte": [
+            "Dispositivi personali o Secure Enclave, in cui la prova \u00e8 legata a hardware personale sicuro.",
+            "L\u2019analisi di singoli sample biometrici come scansioni dell\u2019iride o immagini del volto.",
+            "Challenge comportamentali come pattern motori o digitazione.",
+            "Verifica sociale, in cui persone gi\u00e0 verificate garantiscono per i nuovi membri.",
+            "La comparazione fra due template biometrici, applicata tramite uno score di distanza biometrica 1 a 1."
+        ],
+        "giusta": "La comparazione fra due template biometrici, applicata tramite uno score di distanza biometrica 1 a 1."
+    },
+    "378": {
+        "domanda": "Quale metodo di Proof of Personhood appartiene alla categoria della verifica sociale?",
+        "risposte": [
+            "Viene chiesto a persone gi\u00e0 verificate di garantire per i nuovi membri, cio\u00e8 un meccanismo di garanzia tra pari.",
+            "L\u2019analisi comportamentale basata su pattern motori o digitazione durante l\u2019interazione.",
+            "L\u2019uso di un Secure Enclave legato al dispositivo personale dell\u2019utente.",
+            "La scansione dell\u2019iride tramite un sistema biometrico dedicato, come in approcci basati su acquisizione o confronto di caratteristiche fisiche."
+        ],
+        "giusta": "Viene chiesto a persone gi\u00e0 verificate di garantire per i nuovi membri, cio\u00e8 un meccanismo di garanzia tra pari."
+    },
+    "379": {
+        "domanda": "Non esistono estrattori di feature per impronte digitali che possano supportare una metrica euclidea come funzione di matching.",
+        "risposte": [
+            "Vero",
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "380": {
+        "domanda": "Le seguenti caratteristiche sono maggiormente tipiche di quale applicazione? Caratteristiche in esame: LIMITATA DISTINGUIVIT\u00C0 del tratto biometrico (forma della mano, firma online, ...), non universalit\u00e0 del tratto (alto tasso di Failure to Enroll, malattie, fobie, ...), attacchi sul sensore (dita in silicone, trucco e maschere, registratori, ...).",
+        "risposte": [
+            "Non sono caratteristiche presenti nei sistemi biometrici",
+            "Sistemi monomodali e sistemi multimodali in pari grado",
+            "Sono presenti quando si usano moduli di machine learning nei sistemi biometrici",
+            "Sistemi multimodali",
+            "Sistemi monomodali"
+        ],
+        "giusta": "Sistemi monomodali"
+    },
+    "381": {
+        "domanda": "Come sono definiti i \u201ccambiamenti impercettibili effettuati sui sample biometrici per produrre effetti importanti ed errori sui sistemi di AI\u201d?",
+        "risposte": [
+            "Long-Short Term Memory",
+            "Adversarial Attacks",
+            "Single frame detection",
+            "Nessuna delle precedenti",
+            "Challenge-response"
+        ],
+        "giusta": "Adversarial Attacks"
+    },
+    "382": {
+        "domanda": "Quali dei seguenti attacchi pu\u00f2 essere considerato NON zero-effort?",
+        "risposte": [
+            "Maschera di fronte ad un sistema di riconoscimento facciale.",
+            "Viene impiegata una mascherina ed un angolo non frontale per l\u2019inquadratura del volto.",
+            "Tutte le altre opzioni (tranne \u201cNessuna delle altre opzioni\u201d).",
+            "Attacco avversario con iniezione di rumore ad-hoc su una immagine di un volto.",
+            "Nessuna delle altre opzioni."
+        ],
+        "giusta": "Tutte le altre opzioni (tranne \u201cNessuna delle altre opzioni\u201d)."
+    },
+    "383": {
+        "domanda": "Un sistema biometrico che usa per il riconoscimento l\u2019immagine del volto nel VISIBILE e nell\u2019IR, in quale categoria dovrebbe appartenere?",
+        "risposte": [
+            "Nessuna delle altre opzioni",
+            "Unimodal biometric",
+            "Multibiometric",
+            "Unibiometric",
+            "Multimodal"
+        ],
+        "giusta": "Multibiometric"
+    },
+    "384": {
+        "domanda": "Un sistema biometrico utilizza UN'UNICA immagine di un'impronta digitale per estrarre sia le Minutiae che il Cylinder Code, due diverse rappresentazioni biometriche derivate dalla stessa immagine. Successivamente, queste informazioni vengono combinate per eseguire il riconoscimento. In base a esperimenti e confronti adeguati, quale risultato ci si pu\u00f2 aspettare in termini di accuratezza rispetto ad altre configurazioni?",
+        "risposte": [
+            "L'uso del Cylinder code purtroppo peggiora l'accuratezza finale del sistema in quanto non \u00e8 la migliore applicabile su una impronta in termini di accuratezza",
+            "Non realizza una buona accuratezza visto che la tecnica del Cylinder code non \u00e8 la migliore applicabile su una impronta in termini di accuratezza",
+            "Nessuna delle altre opzioni",
+            "Buona accuratezza, maggiore rispetto ad usare in ingresso due dita diverse",
+            "Buona accuratezza, minore rispetto ad usare in ingresso due dita diverse"
+        ],
+        "giusta": "Buona accuratezza, minore rispetto ad usare in ingresso due dita diverse"
+    },
+    "385": {
+        "domanda": "I seguenti attacchi:\na) Maschera di fronte ad un sistema di riconoscimento facciale\nb) Attacco avversario con iniezione di rumore ad-hoc su una immagine di un volto\npossono essere classificati nel seguente modo:",
+        "risposte": [
+            "Maschera: NON Zero-effort, Attacco avversario: NON Zero-effort",
+            "Maschera: NON Zero-effort, Attacco avversario: Zero-effort",
+            "Maschera: Zero-effort, Attacco avversario: NON Zero-effort",
+            "Maschera: Zero-effort, Attacco avversario: Zero-effort"
+        ],
+        "giusta": "Maschera: NON Zero-effort, Attacco avversario: NON Zero-effort"
+    },
+    "386": {
+        "domanda": "Rispetto alla tassonomia degli attacchi avversari per i sistemi biometrici discussa a lezione, quale delle seguenti tipologie \u00e8 definita come: \n \"Attacchi che modificano l'INPUT per influenzare il modello. Ad esempio, aggiungendo modifiche a immagini mediche per influenzare la classificazione\"?",
+        "risposte": [
+            "Evasione",
+            "Nessuna delle altre opzioni",
+            "Estrazione",
+            "Avvelenamento",
+            "Inferenza"
+        ],
+        "giusta": "Evasione"
+    },
+    "387": {
+        "domanda": "Quale delle seguenti affermazioni \u00e8 corretta riguardo l'integrazione di un sistema di soft-biometrics con un sistema biometrico primario?",
+        "risposte": [
+            "L'integrazione corretta di un sistema di soft-biometrics \u00e8 a monte di modulo biometrico primario, e viene usato per abilitare o meno il controllo biometrico primario",
+            "L'integrazione corretta di un sistema di soft-biometrics \u00e8 a valle di modulo biometrico primario, e viene usato per moltiplicare lo score match ottenuto in base al valore ottenuto della grandezza di soft biometrics",
+            "Nessuna della altre opzioni, non sono questi i modi di applicare correttamente l'informazione di soft biometrics con una sistema biometrico primario",
+            "L'integrazione corretta di un sistema di soft-biometrics \u00e8 a valle di modulo biometrico primario, e viene usato per MODULARE lo score match ottenuto in base al valore ottenuto della grandezza di soft biometrics"
+        ],
+        "giusta": "L'integrazione corretta di un sistema di soft-biometrics \u00e8 a valle di modulo biometrico primario, e viene usato per MODULARE lo score match ottenuto in base al valore ottenuto della grandezza di soft biometrics"
+    },
+    "388": {
+        "domanda": "Nel contesto dell'Inverse Turing Test, quale affermazione descrive meglio la situazione attuale dei CAPTCHA classici come strumento di verifica umano/macchina?",
+        "risposte": [
+            "I CAPTCHA sono diventati pi\u00f9 efficaci grazie alla diffusione di CNN e modelli deep, che hanno aumentato il divario tra umani e macchine.",
+            "I CAPTCHA classici sono oggi spesso superabili da sistemi di deep learning, e quindi risultano meno affidabili come strumento principale; per questo vengono sostituiti o integrati con soluzioni pi\u00f9 evolute.",
+            "La risoluzione di un puzzle visivo non pu\u00f2 mai essere considerata una forma, neppure debole, di verifica umano/macchina.",
+            "I CAPTCHA classici sono ancora oggi lo strumento principale e pi\u00f9 robusto per realizzare sistemi di Proof of Personhood su larga scala."
+        ],
+        "giusta": "I CAPTCHA classici sono oggi spesso superabili da sistemi di deep learning, e quindi risultano meno affidabili come strumento principale; per questo vengono sostituiti o integrati con soluzioni pi\u00f9 evolute."
+    },
+    "389": {
+        "domanda": "Le caratteristiche seguenti sono maggiormente tipiche in quale applicazione? Caratteristiche in esame: RUMORE presente nei dati in ingresso (ad esempio condizioni ottimali di illuminazione per il volto, o di umidit\u00e0 per le impronte,), variabilit\u00e0 intra-classe (variazioni di posa nel volto, raffreddore nella voce, ferite su un polpastrello ... )",
+        "risposte": [
+            "Non sono caratteristiche presenti nei sistemi biometrici",
+            "Sistemi monomodali",
+            "Sistemi monomodali e Sistemi multimodali in pari grado",
+            "Sono presenti quando si usano moduli di machine learning nei sistemi biometrici",
+            "Sistemi multimodali"
+        ],
+        "giusta": "Sistemi monomodali"
+    },
+    "390": {
+        "domanda": "Rispetto alla ISO/IEC 19795 Biometric Performance Testing and Reporting, quale delle seguenti strategie di valutazione corrisponde alla strategia chiamata \"Scenario\"?",
+        "risposte": [
+            "Un sistema biometrico completo e tarato direttamente installato nella applicazione finale e usato con una porzione di utenti che accettano di provare il sistema dietro compilazione di un apposito modulo informativo",
+            "Creare delle stanze attrezzate dove vengono alloggiate diverse tecnologie che potrebbero essere impiegate nella applicazione in esame che saranno provate con un ristretto gruppo di volontari per verificare le soluzioni pi\u00f9 adatte.",
+            "Usare database pubblici di sample biometrici per effettuare test algoritmici",
+            "Creare un appalto rivolto ai diversi produttori che una volta recepiti i requisiti tecnologici esprimeranno le migliori offerte economiche che verranno valutate in una seconda fase della selezione"
+        ],
+        "giusta": "Creare delle stanze attrezzate dove vengono alloggiate diverse tecnologie che potrebbero essere impiegate nella applicazione in esame che saranno provate con un ristretto gruppo di volontari per verificare le soluzioni pi\u00f9 adatte."
+    },
+    "391": {
+        "domanda": "In accordo alla definizione della norma ISO/IEC 2382-37, un \"Identity concealer\" \u00e8...",
+        "risposte": [
+            "Un individuo che usando una maschera prova ad essere identificato come un individuo registrato nel sistema per entrare.",
+            "Un individuo che sbaglio prova ad essere ammesso da una sistema biometrico in buona fede, non accorgendosi che non doveva presentare il suo tratto.",
+            "Un individuo che prova ad impersonificare un utente registrato atteggiandosi e vestendosi in modo simile, anche usando un opportuno make-up.",
+            "Nessuna delle altre opzioni descrive correttamente la figura di un \"Identity concealer\"."
+        ],
+        "giusta": "Nessuna delle altre opzioni descrive correttamente la figura di un \"Identity concealer\"."
+    },
+    "392": {
+        "domanda": "Secondo il modello discusso a lezione di Paul Ekman della classificazione delle emozioni, quale delle seguenti non appartiene al modello?",
+        "risposte": [
+            "Imbarazzo",
+            "Rabbia",
+            "Disgusto",
+            "Stato neutro",
+            "Paura"
+        ],
+        "giusta": "Imbarazzo"
+    },
+    "393": {
+        "domanda": "La introduzione di un rumore in un ambiente o in una immagine al fine di creare un generico comportamento erroneo o una generica previsione errata in un modello di machine learning, \u00e8 considerato come un",
+        "risposte": [
+            "Targeted Adversarial attack",
+            "NON-targeted Adversarial Attack",
+            "Nessuna delle altre opzioni, questa tecnica non pu\u00f2 produrre alterazioni del comportamento del modello di machine learning in quanto sono stati allenati a resistere al rumore ambientale.",
+            "Challange-response attack"
+        ],
+        "giusta": "NON-targeted Adversarial Attack"
+    },
+    "394": {
+        "domanda": "In un sistema biometrico multimodale, i punteggi di corrispondenza sono stati calcolati per tre modalit\u00e0 biometriche con i seguenti valori di similitudine (score match): Score1 = 0.5, Score2 = 0.7, Score3 = 0.9. La soglia di accettazione \u00e8 fissata a 0.9. Viene scelto il sistema a voto maggioritario. Quale caso si ha?",
+        "risposte": [
+            "L'utente \u00e8 autenticato perch\u00e9 almeno 2 su 3 dei sistemi lo sistemi lo ha indentificato",
+            "L'utente \u00e8 autenticato perch\u00e9 almeno uno dei sistemi lo ha indentificato",
+            "Nessuno degli altri casi precedenti",
+            "L'utente \u00e8 autenticato perch\u00e9 la somma degli score \u00e8 maggiore di 0.6",
+            "L'utente \u00e8 autenticato perch\u00e9 tutti e 3 i sistemi lo sistemi lo ha indentificato",
+            "L'utente non \u00e8 autenticato"
+        ],
+        "giusta": "L'utente non \u00e8 autenticato"
+    },
+    "395": {
+        "domanda": "Quale delle seguenti tecniche di regolarizzazione per l'apprendimento di reti deep per impieghi biometrici, NON \u00e8 menzionata come importante per la difesa da attacchi avversari?",
+        "risposte": [
+            "Dropout.",
+            "Batch Normalization.",
+            "Weight Decay.",
+            "Aumento del tasso di apprendimento."
+        ],
+        "giusta": "Aumento del tasso di apprendimento."
+    },
+    "396": {
+        "domanda": "Nella curva DET di un sistema biometrico, in quale regione si trovano le classiche applicazioni civili?",
+        "risposte": [
+            "Alto FNMR, basso FMR",
+            "La curva DET stima parametri diversi da quelli che servono per verificare se il sistema \u00e8 adatto per applicazioni civili",
+            "Medio FNMR, medio FMR",
+            "Basso FNMR, alto FMR"
+        ],
+        "giusta": "Medio FNMR, medio FMR"
+    },
+    "397": {
+        "domanda": "Nell'Inverse Turing Test. Quando il sistema classifica l'interlocutore come umano? (X rappresenta le osservazioni comportamentali e T una soglia di decisione)",
+        "risposte": [
+            "Quando le osservazioni comportamentali X coincidono con una identit\u00e0 gi\u00e0 registrata nel database.",
+            "Quando la probabilit\u00e0 condizionata P(umano|X) supera la soglia T.",
+            "Quando la soglia T \u00e8 uguale a zero, indipendentemente dal valore di P(umano|X)",
+            "Quando il sistema assegna l'interlocutore a una delle classi identitarie 11, 12, ... , IN attraverso la comparazione con la soglia T."
+        ],
+        "giusta": "Quando la probabilit\u00e0 condizionata P(umano|X) supera la soglia T."
+    },
+    "398": {
+        "domanda": "Nell'Inverse Turing Test, dal punto di vista biometrico e della sicurezza, il sistema vuole stabilire principalmente:",
+        "risposte": [
+            "che cosa sei, cio\u00e8 se sei umano o non umano",
+            "il problema \u00e8 soltanto interessante teoricamente, ma purtroppo non ancora applicabile nella pratica.",
+            "chi sei, ovvero se appartieni all'insieme delle identit\u00e0 11, 12, ... , IN memorizzate nel sistema.",
+            "se sei chi dichiari di essere, cio\u00e8 se il confronto tra il template acquisito T1 e il template memorizzato T0 soddisfa il criterio decisionale del sistema."
+        ],
+        "giusta": "che cosa sei, cio\u00e8 se sei umano o non umano"
+    },
+    "399": {
+        "domanda": "In biometria, il concetto di coorte viene utilizzato per migliorare il funzionamento di un sistema biometrico. Quale delle seguenti affermazioni \u00e8 corretta?",
+        "risposte": [
+            "L'uso della tecnica della coorte in biometria e considerato come NON privacy compliant perch\u00e8 \u00e8 necessario utilizzare dei database pubblici di immagini esterni di utenti di riferimento",
+            "L'uso della tecnica della coorte in biometria \u00e8 considerato come NON privacy compliant perch\u00e9 \u00e8 necessario memorizzare pi\u00f9 informazioni e pi\u00f9 immagini dei tratti biometrici degli utenti da verificare rispetto alla tecnica classica.",
+            "L'uso della tecnica della coorte in biometria \u00e8 considerato come privacy compliant perch\u00e9 si possono utilizzare dei database gi\u00e0 pubblici di immagini esterni di utenti di riferimento per la sua esecuzione",
+            "Non vi \u00e8 nessuna particolare considerazione di privacy legata all'uso della tecnica in oggetto visto che si tratta solo di una normalizzazione degli score rispetto al valore massimo trovato nel sistema con gli altri utenti."
+        ],
+        "giusta": "L'uso della tecnica della coorte in biometria \u00e8 considerato come privacy compliant perch\u00e9 si possono utilizzare dei database gi\u00e0 pubblici di immagini esterni di utenti di riferimento per la sua esecuzione"
+    },
+    "400": {
+        "domanda": "Nell'Inverse Turing Test, si applica principalmente una regola decisionale di quale tipo?",
+        "risposte": [
+            "una regola di identificazione chiusa, in cui il soggetto viene assegnato a una delle identità note del sistema.",
+            "una regola di verifica biometrica, in cui si confrontano un template acquisito e un template di riferimento associato a una identità dichiarata.",
+            "una regola di scelta della soglia operativa basata sul punto di Equal Error Rate.",
+            "una regola di classificazione binaria basata sul confronto tra la probabilità della classe umano e una soglia decisionale."
+        ],
+        "giusta": "una regola di classificazione binaria basata sul confronto tra la probabilità della classe umano e una soglia decisionale."
+    },
+    "401": {
+        "domanda": "Considera i seguenti fattori: effetti casuali (rumore del dispositivo), variazioni dello sfondo, variazioni tratto (invecchiamento, posizione, espressione, usura), parziali occlusioni. Quale caratteristica possono aumentare?",
+        "risposte": [
+            "Non impattano particolarmente alla luce delle più recenti tecnologie basate sulle reti deep che hanno risolto questo tipo di problematiche delle applicazioni",
+            "Similitudine interclasse",
+            "In alcuni casi la variabilità intraclasse e in altri la similitudine interclasse in base a come si regola la soglia del sistema biometrico",
+            "La variabilità intraclasse e contemporaneamente la similitudine interclasse",
+            "Variabilità intraclasse"
+        ],
+        "giusta": "Variabilità intraclasse"
+    },
+    "402": {
+        "domanda": "Se la stima della probabilità p di errore del sistema biometrico in autenticazione produce la valutazione p=0.05 quale dei seguenti casi è più corretto considerando 100 utenti?",
+        "risposte": [
+            "50 persone con errore 0% e 50 con errore 10%",
+            "30 persone con errore 0% e 70 con errore 7,1%",
+            "90 persone con errore 0% e 10 con errore 50%",
+            "Non si può sapere a priori, tutte le altre opzioni potrebbero essere plausibili"
+        ],
+        "giusta": "Non si può sapere a priori, tutte le altre opzioni potrebbero essere plausibili"
+    },
+    "403": {
+        "domanda": "Durante la stima della probabilità p di errore del sistema biometrico in autenticazione, è normale includere:",
+        "risposte": [
+            "La somma degli errori di tipo I",
+            "Nessuna delle altre opzioni",
+            "La somma degli errori di tipo I e tipo II",
+            "La somma degli errori di tipo I, tipo II e tipo III"
+        ],
+        "giusta": "La somma degli errori di tipo I e tipo II"
+    },
+     "404": {
+        "domanda": "La realizzazione del modulo di fusione in un sistema biometrico multimodale può essere realizzata da diversi modelli di machine learning. Per quali di essi diventa molto importante applicare le tecniche di omogeneizzazione, regolarizzazione e normalizzazione.",
+        "risposte": [
+            "Meno importante per sistemi tradizionali basasti su somma, min, max, e più importante per sistemi come reti neurali e alberi",
+            "Nessuno degli altri casi, queste tecniche si usano per la visualizzazione dei dati e non in ingresso ai modelli",
+            "Ugualmente importante per sistemi tradizionali basati su somma, min, max, e per sistemi come reti neurali e alberi",
+            "Molto importante per sistemi tradizionali basasti su somma, min, max, e meno importante per sistemi come reti neurali e alberi"
+        ],
+        "giusta": "Molto importante per sistemi tradizionali basasti su somma, min, max, e meno importante per sistemi come reti neurali e alberi"
+    },
+    "405": {
+        "domanda": "Le lenti asferiche rappresentano una soluzione interessante per le ottiche adottate nei sistemi biometrici e.",
+        "risposte": [
+            "riducono fortemente l'aberrazione sferica",
+            "possono sostituire sistemi pi\u00f9 complessi di lenti tradizionali",
+            "riducono l'aberrazione cromatica",
+            "tutte le altre opzioni",
+            "sono pi\u00f9 compatte e meno costose"
+        ],
+        "giusta": "tutte le altre opzioni"
+    },
+    "406": {
+        "domanda": "Nella curva DET di un sistema biometrico in quale regione si trovano le applicazioni ad ALTISSIMO LIVELLO DI SICUREZZA?",
+        "risposte": [
+            "La curva DET stima parametri diversi da quelli che servono per verificare se il sistema \u00e8 adatto per applicazioni di altissimo livello di sicurezza",
+            "Medio FNMR, medio FMR",
+            "Basso FNMR, alto FMR",
+            "Alto FNMR, basso FMR"
+        ],
+        "giusta": "Alto FNMR, basso FMR"
+    },
+    "407": {
+        "domanda": "Le iridi di due gemelli omozigoati sono ...",
+        "risposte": [
+            "Nessuna delle altre opzioni",
+            "non distinguibili in quante create dallo stesso DNA",
+            "non sufficientemente distinguibili in quanto le differenze biometriche sono minori rispetto al caso di individui diversi e quindi con con diverso DNA",
+            "rivelano il grado di parentela per le caratteristiche biometriche ."
+        ],
+        "giusta": "Nessuna delle altre opzioni"
+    },
+    "408": {
+        "domanda": "Rispetto alla ISO/IEC 19795 Biometric Performance Testing and Reporting, quale delle seguenti strategie di valutazione corrisponde alla strategia chiamata \"Operational\"",
+        "risposte": [
+            "Creare un appalto rivolto ai diversi produttori che una volta recepiti i requisiti tecnologici esprimeranno le migliori offerte economiche che verranno valutate in una seconda fase della selezione",
+            "Un sistema biometrico completo e tarato direttamente installato nella applicazione finale e usato con una porzione di utenti che accettano di provare il sistema dietro compilazione di un apposito modulo informativo",
+            "Creare delle stanze attrezzate dove vengono alloggiate diverse tecnologie che potrebbero essere impiegate nella applicazione in esame che saranno provate con un ristretto gruppo di volontari per verificare le soluzioni pi\u00f9 adatte.",
+            "Usare database pubblici di sample biometrici per effettuare test algoritmici"
+        ],
+        "giusta": "Un sistema biometrico completo e tarato direttamente installato nella applicazione finale e usato con una porzione di utenti che accettano di provare il sistema dietro compilazione di un apposito modulo informativo"
+    },
+    "409": {
+        "domanda": "Da studi recenti, quale \u00e8 l'accuratezza media di un umano nel riconoscimento di un video deepfake realizzato allo stato dell'arte?",
+        "risposte": [
+            "20%-50%",
+            "90%",
+            "1%",
+            "5%",
+            "99%"
+        ],
+        "giusta": "20%-50%"
+    },
+    "410": {
+        "domanda": "Le caratteristiche seguenti sono maggiormente tipiche in quale applicazione? Caratteristiche in esame: si aumenta la COPERTURA della popolazione riducendo il FTE (Failure to Enroll rate), sono un efficace metodo antispoofing",
+        "risposte": [
+            "Sistemi monomodali e Sistemi multimodali in pari grado",
+            "Sistemi multimodali",
+            "Non sono caratteristiche presenti nei sistemi biometrici",
+            "Sistemi monomodali",
+            "Sono presenti quando di usano moduli di machine learning nei sistemi biometrici"
+        ],
+        "giusta": "Sistemi multimodali"
+    },
+    "411": {
+        "domanda": "Quale delle seguenti affermazioni \u00e8 vera?",
+        "risposte": [
+            "E' possibile portare attacchi fisici (un artefatto davanti al sensore) anche su modelli black box",
+            "Esistono attacchi avversari basati sulla iniezione di rumore che possono resistere anche alle normali compressioni usate per immagini jpeg",
+            "Tutte le altre opzioni (tranne \"Nessuna delle altre opzioni\")",
+            "Nessuna delle altre opzioni"
+        ],
+        "giusta": "Tutte le altre opzioni (tranne \"Nessuna delle altre opzioni\")"
+    },
+    "412": {
+        "domanda": "Secondo il testo riportato sull'art. 612-quater c.p., come si procede di regola per il delitto di illecita diffusione di contenuti generati o alterati con sistemi di IA?",
+        "risposte": [
+            "Sempre d'ufficio, perche' ogni diffusione di contenuti alterati con IA e' automaticamente considerata reato contro la fede pubblica.",
+            "Solo su segnalazione della piattaforma digitale che ospita il contenuto, indipendentemente dalla volonta della persona offesa.",
+            "Di regola a querela della persona offesa, ma si procede d'ufficio in casi particolari, ad esempio se il fatto e' connesso ad altro reato perseguibile d'ufficio oppure se il fatto \u00e8 commesso contro incapaci, minori, infermi o pubbliche autorita'",
+            "Esclusivamente su autorizzazione preventiva del pubblico ministero, e non sulla base della querela della persona offesa."
+        ],
+        "giusta": "Di regola a querela della persona offesa, ma si procede d'ufficio in casi particolari, ad esempio se il fatto e' connesso ad altro reato perseguibile d'ufficio oppure se il fatto \u00e8 commesso contro incapaci, minori, infermi o pubbliche autorita'"
+    },
+    "413": {
+        "domanda": "Fra gli approcci generali per la detezione di un attacco deepfake, quali di queste tecniche possono essere impiegati",
+        "risposte": [
+            "Tutte le altre opzioni (tranne \"Nessuna delle altre opzioni\")",
+            "Nessuna delle altre opzioni",
+            "Rilevamento Basato su Intelligenza Artificiale",
+            "Analisi forense digitale",
+            "Verifica dell'Autenticit\u00e0 del Contenuto come per esempio il tracciamento della provenienza dei file o l'analisi dei metadati"
+        ],
+        "giusta": "Tutte le altre opzioni (tranne \"Nessuna delle altre opzioni\")"
+    },
+    "414": {
+        "domanda": "Per quanto riguarda la misurazione della accuratezza dei sistemi di classificazione delle emozioni \u00e8 possibile produrre una curva ROC o DET?",
+        "risposte": [
+            "SI, per i sistemi di classificazione che ritornano un valore di intensit\u00e0 della emozione \u00e8 possibile creare una curva ROC o DET e confrontare fra loro sistemi di questo tipo.",
+            "NO, perch\u00e9 si possono applicare solo ai sistemi biometrici tradizionali.",
+            "SI, perch\u00e9 attraverso il numero di risposte esatte per individuo \u00e8 possibile stimare statisticamente la curva ROC o DET",
+            "NO, perch\u00e9 si possono calcolare solo le matrici di confusione."
+        ],
+        "giusta": "SI, per i sistemi di classificazione che ritornano un valore di intensit\u00e0 della emozione \u00e8 possibile creare una curva ROC o DET e confrontare fra loro sistemi di questo tipo."
+    },
+    "415": {
+        "domanda": "Nel quadro normativo riportato a lezione, quale situazione rappresenta correttamente un caso di aggravamento del fatto commesso con l'impiego di sistemi di intelligenza artificiale?",
+        "risposte": [
+            "Quando l'autore non dichiara spontaneamente di avere utilizzato un sistema di IA per produrre il contenuto.",
+            "Quando il contenuto \u00e8 stato visualizzato da un numero elevato di utenti.",
+            "Quando l'impiego dei sistemi di IA costituisce mezzo insidioso, oppure ostacola la pubblica difesa o aggrava le conseguenze del reato.",
+            "Quando il contenuto alterato \u00e8 stato generato con un software commerciale regolarmente acquistato."
+        ],
+        "giusta": "Quando l'impiego dei sistemi di IA costituisce mezzo insidioso, oppure ostacola la pubblica difesa o aggrava le conseguenze del reato."
+    },
+    "416": {
+        "domanda": "Nel contesto discusso a lezione per quanto riguarda la classificazione automatica delle emozioni, e tenendo conto delle regole di buona prassi e della normativa di riferimento in consolidamento, per quali delle seguenti applicazioni potrebbe essere impiegato un sistema automatico di riconoscimento delle emozioni",
+        "risposte": [
+            "Per valutare le emozioni durante un colloquio di lavoro.",
+            "Per valutare le emozioni durante un esame in universit\u00e0.",
+            "Per valutare le emozioni durante uno spot pubblicitario durante una sessione di analisi in laboratorio con gli utenti informati, senza diffusione delle immagini e senza implicazioni dirette sull'utente.",
+            "Nessuna delle altre opzioni in quanto vanno contro le attuali regole di buona prassi e dell'orientamento legislativo (attualmente in consolidamento)."
+        ],
+        "giusta": "Per valutare le emozioni durante uno spot pubblicitario durante una sessione di analisi in laboratorio con gli utenti informati, senza diffusione delle immagini e senza implicazioni dirette sull'utente."
+    },
+    "417": {
+        "domanda": "Rispetto alle tecniche di Deepfake Detection e Inverse Turing, quale delle descrizioni seguenti e' corretta?",
+        "risposte": [
+            "La Deepfake Detection e' un caso particolare di challenge-response, mentre l'Inverse Turing Test e' un problema di segmentazione del contenuto.",
+            "La Deepfake Detection identifica un utente tra piu' identita', mentre l'Inverse Turing Test verifica una identita' dichiarata.",
+            "La Deepfake Detection e l'Inverse Turing Test sono entrambi problemi di identificazione aperta.",
+            "La Deepfake Detection classifica un contenuto come reale o sintetico/manipolato; l'Inverse Turing Test classifica l'interlocutore come umano o non umano."
+        ],
+        "giusta": "La Deepfake Detection classifica un contenuto come reale o sintetico/manipolato; l'Inverse Turing Test classifica l'interlocutore come umano o non umano."
+    },
+    "418": {
+        "domanda": "In un sistema di Inverse Turing Test, gli score prodotti dall'analisi del contesto e da reCAPTCHA possono essere integrati mediante fusione per quale motivo principale?",
+        "risposte": [
+            "Per migliorare l'accuratezza e la robustezza della decisione finale umano/bot, combinando informazioni complementari provenienti da moduli diversi.",
+            "Per trasformare automaticamente il problema da classificazione binaria a identificazione chiusa.",
+            "Per sostituire completamente ogni soglia decisionale, rendendo inutile il calcolo di score.",
+            "Per garantire che il solo modulo reCAPTCHA produca sempre una decisione perfetta senza bisogno di altri contributi."
+        ],
+        "giusta": "Per migliorare l'accuratezza e la robustezza della decisione finale umano/bot, combinando informazioni complementari provenienti da moduli diversi."
+    },
+    "419": {
+        "domanda": "Velocit\u00e0 e traiettoria del mouse, pattern di digitazione, tempo di permanenza, cronologia di navigazione sulla pagina e fingerprinting limitato del browser sono tipicamente associati a quale sistema o funzione?",
+        "risposte": [
+            "Worldcoin, che mira principalmente alla Proof of Personhood.",
+            "L'estrazione di un template biometrico in un sistema tradizionale di identificazione o verifica al login.",
+            "reCAPTCHA v3, che stima il rischio di automazione o di comportamento non umano sulla base di segnali comportamentali e contestuali.",
+            "Una classica procedura challenge-response in applicazioni bancarie, basata soprattutto sulla corretta risposta esplicita dell'utente"
+        ],
+        "giusta": "reCAPTCHA v3, che stima il rischio di automazione o di comportamento non umano sulla base di segnali comportamentali e contestuali."
+    },
+
+
+
+
+
+    
+    
+    "420": {
+        "domanda": "Nel corso \u00e8 stata discussa la possibilit\u00e0 di estrarre feature biometriche attraverso reti neurali Deep. Quali dei seguenti casi \u00e8 corretto?",
+        "risposte": [
+            "Non serve allenare un estrattore in quanto gli ultimi strati dei sistemi deep fully connected sono perfettamente in grado di mappare i valori matching da restituire quindi non \u00e8 una tecnica che viene impiegata correntemente.",
+            "Per creare un estrattore neurale di feature biometriche serve un database di immagini della stessa persona che possono essere anche singole.",
+            "Per creare un estrattore neurale di feature biometriche serve un database con diverse coppie di immagini (pi\u00f9 di una) della stessa persona.",
+            "Per creare un estrattore neurale di feature biometriche serve un database con almeno una coppia di immagini della stessa persona.",
+            "Per creare un estrattore neurale di feature biometriche serve un database con diverse coppie di immagini (pi\u00f9 di una) della stessa persona e anche dei valori di matchscore corrispondenti da imparare."
+        ],
+        "giusta": "Per creare un estrattore neurale di feature biometriche serve un database con diverse coppie di immagini (pi\u00f9 di una) della stessa persona."
+    },
+    "421": {
+        "domanda": "Le tecniche EEG (Electroencephalography)",
+        "risposte": [
+            "Nessuna delle altre opzioni",
+            "non possono essere impiegate in dispositivi mobili ed indossabili",
+            "sono impiegabili solo in ambito ospedaliero per la necessaria attrezzatura e sensoristica che li caratterizza.",
+            "non sono attualmente impiegabili per il riconoscimento degli stati mentali degli individui."
+        ],
+        "giusta": "Nessuna delle altre opzioni"
+    },
+    "422": {
+        "domanda": "Gli effetti negativi del sistema chiamato Rolling Shutter impiegato nei sistemi CMOS sono:",
+        "risposte": [
+            "Skew",
+            "Contrassegna",
+            "Spatial aliasing.",
+            "Temporal aliasing.",
+            "Wobble o Jello effect.",
+            "Tutte le altre opzioni"
+        ],
+        "giusta": "Tutte le altre opzioni"
+    },
+    "423": {
+        "domanda": "Nei sistemi come reCAPTCHA, quale affermazione descrive meglio il principio di funzionamento basato sulla biometria comportamentale soft?",
+        "risposte": [
+            "Il sistema decide soprattutto in base alla complessit\u00e0 visiva del puzzle proposto, assumendo che un puzzle pi\u00f9 difficile implichi automaticamente una maggiore probabilit\u00e0 che l'utente sia umano.",
+            "Conta soprattutto il comportamento durante l'interazione (traiettoria del mouse, tempi di risposta, micro-esitazioni, coerenza temporale) e non soltanto la corretta esecuzione del compito.",
+            "Il sistema verifica principalmente che il mouse venga mosso a sufficienza, cos\u00ec da trasformare ogni interazione in una semplice challenge-response esplicita.",
+            "Il compito deve essere risolto perfettamente e senza errori, perch\u00e9 la decisione dipende esclusivamente dall'esattezza del risultato finale."
+        ],
+        "giusta": "Conta soprattutto il comportamento durante l'interazione (traiettoria del mouse, tempi di risposta, micro-esitazioni, coerenza temporale) e non soltanto la corretta esecuzione del compito."
+    },
+    "424": {
+        "domanda": "Secondo il nuovo art. 612-quater c.p., quale condotta viene specificamente punita?",
+        "risposte": [
+            "Qualunque uso di sistemi di intelligenza artificiale per produrre immagini o audio di tipo deepfake, anche in assenza di inganno e di danno ingiusto.",
+            "La sola generazione privata di contenuti sintetici con strumenti di intelligenza artificiale, anche senza diffusione a terzi.",
+            "La diffusione, senza consenso, di immagini, video o voci falsificati o alterati con sistemi di intelligenza artificiale, idonei a indurre in inganno sulla loro genuinit\u00e0 e tali da cagionare un danno ingiusto a una persona.",
+            "La detenzione personale di software per deepfake, anche senza creazione o diffusione di contenuti."
+        ],
+        "giusta": "La diffusione, senza consenso, di immagini, video o voci falsificati o alterati con sistemi di intelligenza artificiale, idonei a indurre in inganno sulla loro genuinit\u00e0 e tali da cagionare un danno ingiusto a una persona."
+    },
+    "425": {
+        "domanda": "Le tecniche per l'estrazione di feature per le impronte digitali chiamata di Fingercoding \u00e8 una tecnica",
+        "risposte": [
+            "di livello 1",
+            "di livello 3",
+            "di livello 2"
+        ],
+        "giusta": "di livello 2"
+    },
+    "426": {
+        "domanda": "Non esistono estrattori di feature per impronte digitali che possano supportare una metrica euclidea come funzione di matching",
+        "risposte": [
+            "Falso",
+            "Vero"
+        ],
+        "giusta": "Falso"
+    },
+    "427": {
+        "domanda": "Rispetto al contesto discusso a lezione, indicare quali tipi di output possono essere prodotti con tecniche di deepfake",
+        "risposte": [
+            "Nessuna delle altre opzioni",
+            "Solo Video",
+            "Solo Immagini e Video",
+            "Video, Audio, Immagini, Testo e manipolazione delle Emozioni dei soggetti rappresentati"
+        ],
+        "giusta": "Video, Audio, Immagini, Testo e manipolazione delle Emozioni dei soggetti rappresentati"
+    },
+    "428": {
+        "domanda": "Per effetturare Template selection nelle applicazioni per l'iride pu\u00f2/possono essere utili",
+        "risposte": [
+            "Entrambe",
+            "Un elevato frame rate",
+            "Un sistema efficace per individuare la qualit\u00e0 del frame per l'esame dell'iride."
+        ],
+        "giusta": "Entrambe"
+    },
+    "429": {
+        "domanda": "Rispetto alle varie posizioni discusse a lezione, quale \u00e8 la posizione legislativa e della buona pratica per l'impiego dei sistemi di classificazione delle emozioni nelle applicazioni?",
+        "risposte": [
+            "L'impostazione legislativa (e la buona pratica) si sta orientando a una severa regolamentazione fino ad arrivare ad un divieto dell'utilizzo del riconoscimento delle emozioni automatico in particolari applicazioni come i luoghi di lavoro e negli istituti di istruzione.",
+            "Nessuna della altre opzioni.",
+            "Tutte le altre opzioni (tranne \"Nessuna delle altre opzioni\")",
+            "L'impostazione legislativa (e la buona pratica) si sta orientando all' obbligo di informare le persone fisiche quando sono esposte ai sistemi di riconoscimento automatico delle emozioni.",
+            "L'impostazione legislativa (e la buona pratica) rileva la possibilit\u00e0 di effettuare importanti discriminazioni fra gli utenti in quanto i modelli di ML impiegati potrebbero essere allenati su espressioni facciali di sottogruppi di diversa cultura ed etnia."
+        ],
+        "giusta": "Tutte le altre opzioni (tranne \"Nessuna delle altre opzioni\")"
+    },
+    "430": {
+        "domanda": "Quale definizione descrive correttamente la Proof of Personhood (PoP)?",
+        "risposte": [
+            "Un sistema di autenticazione biometrica progettato per verificare l'identita' dichiarata di un utente confrontando un template acquisito con uno di riferimento.",
+            "Un protocollo crittografico progettato per garantire esclusivamente la confidenzialit\u00e0 delle comunicazioni tra due entit\u00e0 digitali.",
+            "Un meccanismo di identificazione che assegna ogni utente a una identit\u00e0 registrata nel sistema.",
+            "Un insieme di metodi, protocolli o sistemi volti a verificare che un'entit\u00e0 online corrisponda a un essere umano reale e unico, e non a un bot."
+        ],
+        "giusta": "Un insieme di metodi, protocolli o sistemi volti a verificare che un'entit\u00e0 online corrisponda a un essere umano reale e unico, e non a un bot."
+    },
+    "431": {
+        "domanda": "Scegliere il completamento corretto della frase: \"Le tecniche di anti-spoofing tramite pletismografia senza contatto .... \"",
+        "risposte": [
+            "Nessuna delle altre opzioni",
+            "non sono ancora applicabili purtroppo in quanto necessitano di sensori specifici da indossare quindi non compatibili con le applicazioni a distanza",
+            "analizzano la sequenza di frame alla ricerca di una pulsazione del tono colore della epidermide per rilevare il battito cardiaco dell'individuo",
+            "analizzano il singolo frame per la ricerca dei classici pattern del colorito di una volto umano"
+        ],
+        "giusta": "analizzano la sequenza di frame alla ricerca di una pulsazione del tono colore della epidermide per rilevare il battito cardiaco dell'individuo"
+    },
+
+    "totali": 431,
     "fatte": [
-        41,
-        204,
-        119,
-        213,
-        141,
-        290,
-        246,
-        182,
-        192,
-        256,
-        168,
-        73,
-        53,
-        176,
-        82,
-        328,
-        131,
-        116,
-        7,
-        89,
-        196,
-        277,
-        6,
-        255,
-        220,
-        335,
-        12,
-        338,
-        114,
-        210,
-        86,
-        69,
-        217,
-        311,
-        275,
-        71,
-        31,
-        285,
-        231,
-        94,
-        212,
-        296,
-        299,
-        95,
-        102,
-        135,
-        155,
-        241,
-        133,
-        22,
-        283,
-        219,
-        306,
-        218,
-        266,
-        235,
-        265,
-        123,
-        257,
-        55,
-        85,
-        271,
-        149,
-        201,
-        304,
-        264,
-        300,
-        346,
-        179,
-        13,
-        251,
-        138,
-        315,
-        198,
-        10,
-        39,
-        34,
-        278,
-        152,
-        25,
-        269,
-        162
+        210
     ]
-}
+ }
