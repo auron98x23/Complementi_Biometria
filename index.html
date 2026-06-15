@@ -506,6 +506,28 @@
         allBtn.onclick = () => window.selectAllBlocks();
         container.appendChild(allBtn);
     }
+    window.startWorstCloudReview = function() {
+        const worstIds = Array.from(cloudErrorIds).filter(id => (cloudErrorCounts[id] || 0) > 4);
+        
+        if (worstIds.length === 0) {
+            alert("Non ci sono domande con più di 4 errori salvate!");
+            return;
+        }
+        
+        isCloudMode = true;
+        useCustomRange = false;
+        useSpecificSelection = false;
+        resetFiltersUI();
+        
+        // Applica l'active al nuovo bottone
+        document.getElementById('btn-cloud-worst').classList.add('active');
+        
+        const worstSet = fullDb.filter(q => worstIds.includes(q.id));
+        currentQuizSet = JSON.parse(JSON.stringify(worstSet));
+
+        if(modeQ === 'random') currentQuizSet.sort(() => Math.random() - 0.5);
+        renderQuestions();
+    }
 
     function regenerateQuiz() {
         if(fullDb.length === 0) return;
