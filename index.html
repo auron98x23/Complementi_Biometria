@@ -238,12 +238,14 @@
             userInfo.style.display = 'flex';
             userDisplaySpan.innerText = getUsernameFromEmail(user.email);
             btnCloud.style.display = 'block';
+            document.getElementById('btn-cloud-worst').style.display = 'block';
             await loadCloudErrors();
         } else {
             currentUser = null;
             loginForm.style.display = 'flex'; 
             userInfo.style.display = 'none';
             btnCloud.style.display = 'none';
+            document.getElementById('btn-cloud-worst').style.display = 'none';
             cloudErrorIds.clear();
             cloudErrorCounts = {};
         }
