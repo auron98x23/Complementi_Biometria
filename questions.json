@@ -66,13 +66,6 @@
         ],
         "giusta": "Tutte le precedenti"
     },
-    "8": {
-        "domanda": "Lenti liquide applicazioni commerciali",
-        "risposte": [
-            "Nessuna delle precedenti"
-        ],
-        "giusta": "Nessuna delle precedenti"
-    },
     "9": {
         "domanda": "Lenti macro vanno bene per",
         "risposte": [
@@ -83,7 +76,7 @@
         "giusta": "Entrambe le precedenti"
     },
     "10": {
-        "domanda": "Sistema AFIS",
+        "domanda": "In quali ambiti di applicazione viene utilizzato il sistema AFIS?",
         "risposte": [
             "preventive",
             "giudiziarie",
@@ -93,7 +86,7 @@
         "giusta": "preventive e giudiziarie"
     },
     "11": {
-        "domanda": "Transfer learning",
+        "domanda": "Cosa comporta l'applicazione del Transfer Learning su un modello neurale pre-allenato?",
         "risposte": [
             "Rifai allenamento totale",
             "Non serve rifare allenamento",
@@ -111,31 +104,31 @@
         ],
         "giusta": "Nessuna delle precedenti"
     },
-    "13": {
-        "domanda": "Riguardo la template selection basata su iride, pu\u00f2/possono essere utile/utili",
+"13": {
+        "domanda": "Nella selezione del template per il riconoscimento dell'iride, quale affermazione è corretta?",
         "risposte": [
-            "\u00c8 sempre possibile usare riconoscimento automatico del template",
-            "Pu\u00f2 essere usato un riconoscimento manuale del template"
+            "È sempre possibile affidarsi esclusivamente al riconoscimento automatico del template",
+            "In caso di necessità, può essere utilizzato un controllo o riconoscimento manuale del template"
         ],
-        "giusta": "Pu\u00f2 essere usato un riconoscimento manuale del template"
+        "giusta": "In caso di necessità, può essere utilizzato un controllo o riconoscimento manuale del template"
     },
-    "14": {
-        "domanda": "Quando fai data collection a livello biometrico rispetto alla privacy utente",
+   "14": {
+        "domanda": "Qual è l'impatto della raccolta di dati (data collection) a livello biometrico sulla privacy dell'utente?",
         "risposte": [
-            "Non incide direttamente",
-            "Ha conseguenze trascurabili sulla privacy",
-            "Incide sulla privacy"
+            "Non incide direttamente in alcun modo",
+            "Ha conseguenze del tutto trascurabili sulla privacy",
+            "Incide in modo significativo sulla privacy e richiede tutele"
         ],
-        "giusta": "Incide sulla privacy"
+        "giusta": "Incide in modo significativo sulla privacy e richiede tutele"
     },
-    "15": {
-        "domanda": "AFIS come contrastare aliasing",
+   "15": {
+        "domanda": "Nei sistemi AFIS, come si può contrastare il fenomeno dell'aliasing (errore di sovrapposizione/identità)?",
         "risposte": [
-            "Con latent fingerprint",
+            "Utilizzando unicamente le impronte latenti (latent fingerprint)",
             "Nessuna delle precedenti",
-            "Con preventiva registrazione dei cartellini decadattilari"
+            "Tramite la preventiva registrazione e digitalizzazione dei cartellini decadattilari completi"
         ],
-        "giusta": "Con preventiva registrazione dei cartellini decadattilari"
+        "giusta": "Tramite la preventiva registrazione e digitalizzazione dei cartellini decadattilari completi"
     },
     "16": {
         "domanda": "HDR serve a migliorare risoluzione",
@@ -146,16 +139,17 @@
         "giusta": "Falso"
     },
     "17": {
-        "domanda": "HDR",
+        "domanda": "Quali sono le caratteristiche principali della tecnologia HDR?",
         "risposte": [
-            "produce un range di luminanza simile a quello degli umani",
-            "informazioni zone chiare/scure",
-            "tutte le precedenti"
+            "Produce un intervallo di luminanza simile a quello percepito dall'occhio umano",
+            "Conserva e mostra dettagli precisi sia nelle zone molto chiare che in quelle molto scure",
+            "Tutte le precedenti"
         ],
-        "giusta": "tutte le precedenti"
+        "giusta": "Tutte le precedenti"
     },
+
     "18": {
-        "domanda": "Con sistema di ML si pu\u00f2 definire una DET",
+        "domanda": "Con sistema di ML (machine learning) si pu\u00f2 definire una DET",
         "risposte": [
             "Falso",
             "Vero"
@@ -190,7 +184,7 @@
         "giusta": "Temporal aliasing"
     },
     "22": {
-        "domanda": "Nei sistemi di videosorveglianza HDR",
+        "domanda": "Nei sistemi di videosorveglianza HDR (o WDR), qual è il valore minimo di gamma dinamica richiesto per gestire forti contrasti di luce?",
         "risposte": [
             "Almeno 10 dB",
             "Almeno 200 dB",
@@ -285,7 +279,7 @@
         "giusta": "Fine riga"
     },
     "32": {
-        "domanda": "A che livello agisce fingercode",
+        "domanda": "A che livello agisce l'algoritmo fingercode",
         "risposte": [
             "Livello 1",
             "Livello 2",
@@ -295,19 +289,19 @@
         "giusta": "Livello 1"
     },
     "33": {
-        "domanda": "Grey scale extraction",
+        "domanda": "Su quale tipologia di immagini opera l'algoritmo Grey scale extraction",
         "risposte": [
             "Nessuna delle precedenti",
-            "Immagini binarie",
-            "Immagini bianco e nero"
+            "Immagini binarizzate",
+            "Immagini in scala di grigi"
         ],
-        "giusta": "Immagini bianco e nero"
+        "giusta": "Immagini in scala di grigi"
     },
     "34": {
-        "domanda": "Identificazione match on card rimane tutto nella card e non esce niente fuori (\u00e8 sbagliata la domanda, \u00e8 autenticazione!)",
+        "domanda": "Nei sistemi di autenticazione biometrica 'Match-on-Card', quali caratteristiche devono avere i sensori integrati?",
         "risposte": [
-            "Sensore che si piega",
-            "Sensore diverso bla bla",
+            "Devono essere flessibili (sensore che si piega senza danneggiarsi)",
+            "Devono utilizzare tecnologie di acquisizione specifiche e ultrasottili adatte al supporto plastico",
             "Tutte le precedenti"
         ],
         "giusta": "Tutte le precedenti"
@@ -322,7 +316,7 @@
         "giusta": "Applicata per identificazione"
     },
     "36": {
-        "domanda": "Riconoscere quanti anni ha uno con le reti neurali",
+        "domanda": "Si può riconoscere quanti anni ha uno, con le reti neurali...",
         "risposte": [
             "Unsupervised",
             "Supervised"
@@ -366,7 +360,7 @@
         "giusta": "\u00c8 pi\u00f9 economico rispetto a un sistema multi-lente"
     },
     "41": {
-        "domanda": "Iride indoor",
+        "domanda": "Per cosa viene tipicamente utilizzato il sistema di riconoscimento dell'Iride indoor",
         "risposte": [
             "Brandeggi per guidare utente",
             "Per controllo accesso aeroporto",
@@ -376,7 +370,7 @@
         "giusta": "Entrambe le precedenti"
     },
     "42": {
-        "domanda": "Cifratura",
+        "domanda": "a quali operazioni si associa principalmente la cifratura?",
         "risposte": [
             "Tipicamente hardware",
             "Tipicamente trasformazioni",
@@ -758,36 +752,14 @@
         ],
         "giusta": "Vero, peso, consumi e caratteristiche di acquisizione del sensore (in termini di risoluzione e frequenza di campionamento) sono adeguati a questi impieghi"
     },
-    "83": {
-        "domanda": "Nell\u2019ambito delle tecniche di deeplearning applicate in biometria, la data augmentation",
-        "risposte": [
-            "Vero",
-            "Falso",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti"
-        ],
-        "giusta": "Tutte le precedenti"
-    },
     "84": {
         "domanda": "Nel caso di un matcher biometrico per l\u2019autenticazione creato mediante tecniche di apprendimento automatico ed intelligenza artificiale",
         "risposte": [
-            "Vero",
-            "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti.",
+            "Non è mai possibile applicare metriche di valutazione standard",
+            "Le prestazioni possono essere valutate solo su dati qualitativi e non quantitativi",
             "\u00c8 possibile calcolare la curva DET"
         ],
         "giusta": "\u00c8 possibile calcolare la curva DET"
-    },
-    "85": {
-        "domanda": "Nel caso di sistemi biometrici impieganti sistemi con apprendimento automatico, la creazione delle partizioni di allenamento",
-        "risposte": [
-            "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti.",
-            "Pu\u00f2 creare una delle due situazioni precedenti in base a come sono distribuiti i dati nelle partizioni"
-        ],
-        "giusta": "Pu\u00f2 creare una delle due situazioni precedenti in base a come sono distribuiti i dati nelle partizioni"
     },
     "86": {
         "domanda": "Nell\u2019ambito della valutazione delle performance dei sistemi biometrici la procedura corretta di valutazione degli errori prevede:",
