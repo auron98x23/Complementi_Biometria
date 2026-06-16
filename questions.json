@@ -761,32 +761,21 @@
         ],
         "giusta": "\u00c8 possibile calcolare la curva DET"
     },
-    "86": {
-        "domanda": "Nell\u2019ambito della valutazione delle performance dei sistemi biometrici la procedura corretta di valutazione degli errori prevede:",
+   "86": {
+        "domanda": "Nell'ambito della valutazione delle performance dei sistemi biometrici, la procedura corretta di valutazione degli errori prevede di:",
         "risposte": [
-            "Falso",
-            "Tutte le precedenti",
+            "Affidarsi esclusivamente alla valutazione empirica tramite database di test (approccio data-driven)",
+            "Utilizzare stime e modelli statistici/matematici per simulare la distribuzione degli errori (approccio model-driven)",
             "Nessuna delle precedenti.",
-            "Scegliere una o entrambe le opzioni precedenti in base alla disponibilit\u00e0 dei dati o dei modelli e del caso applicativo"
+            "Scegliere una o entrambe le opzioni precedenti in base alla disponibilità dei dati o dei modelli e del caso applicativo"
         ],
-        "giusta": "Scegliere una o entrambe le opzioni precedenti in base alla disponibilit\u00e0 dei dati o dei modelli e del caso applicativo"
+        "giusta": "Scegliere una o entrambe le opzioni precedenti in base alla disponibilità dei dati o dei modelli e del caso applicativo"
     },
-    "87": {
-        "domanda": "Nell\u2019ambito del machine learning applicato alla biometria, i metodi di riduzione della complessit\u00e0 degli ingressi",
-        "risposte": [
-            "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti.",
-            "Possono essere impiegati"
-        ],
-        "giusta": "Possono essere impiegati"
-    },
+    
     "88": {
         "domanda": "La primitiva biometrica di controllo qualit\u00e0 del tratto biometrico \u00e8 considerabile come un sistema di classificazione una volta fissata la soglia di qualit\u00e0 accettabile in ingresso al sistema",
         "risposte": [
             "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti.",
             "Vero"
         ],
         "giusta": "Vero"
@@ -794,9 +783,8 @@
     "89": {
         "domanda": "Il modo di progettare dati e modelli per apprendimento automatico chiamato \u201cRasoio di Occam\u201d",
         "risposte": [
-            "Vero",
-            "Falso",
-            "Tutte le precedenti",
+           "È una teoria obsoleta che non trova alcuna applicazione pratica nei modelli moderni",
+            "Implica che i modelli debbano essere resi il più complessi e stratificati possibile",
             "Nessuna delle precedenti.",
             "\u00c8 una tecnica classica ed \u00e8 ancora consigliabile la sua applicazione nella progettazione quando sono coinvolte reti neurali"
         ],
@@ -805,23 +793,11 @@
     "90": {
         "domanda": "Le tecniche di Transfer Learning mediante reti neurali in applicazioni biometriche tipicamente",
         "risposte": [
-            "Vero",
-            "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti.",
+            "Prevedono un allenamento totale della rete",
+            "Non prevedono alcun allenamento della rete",
             "Prevedono un allenamento parziale della rete"
         ],
         "giusta": "Prevedono un allenamento parziale della rete"
-    },
-    "91": {
-        "domanda": "La scelta della focale in un sistema per il riconoscimento del volto",
-        "risposte": [
-            "Vero",
-            "Falso",
-            "Tutte le precedenti",
-            "Nessuna delle precedenti."
-        ],
-        "giusta": "Nessuna delle precedenti."
     },
     "92": {
         "domanda": "Le reti di tipo deep learning sono efficacemente impiegate nella speech recognition",
@@ -943,8 +919,7 @@
         "domanda": "\u00c8 possibile selezionare il numero di bit per il tono di grigio di un singolo pixel di un\u2019immagine di un sensore",
         "risposte": [
             "Falso",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
+            "Vero, per tutti i dispositivi",
             "Vero, ma solo per i dispositivi pi\u00f9 avanzati"
         ],
         "giusta": "Vero, ma solo per i dispositivi pi\u00f9 avanzati"
@@ -1019,8 +994,6 @@
         "domanda": "In un filtraggio adattivo contestuale, una parte del filtro stima parametri locali da porzioni dell\u2019immagine in esame e adatta i parametri della maschera in base ai parametri stimati",
         "risposte": [
             "Falso",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
             "Vero"
         ],
         "giusta": "Vero"
@@ -1196,8 +1169,7 @@
         "domanda": "I sensori CMOS e CCD sono praticamente equivalenti in campo biometrico dal punto di vista della qualit\u00e0 delle immagini",
         "risposte": [
             "Vero",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
+            "Falso",
             "Falso, anche se recenti innovazioni in termini di velocit\u00e0 di trasmissione interna e sensibilit\u00e0 dei sensori stanno riducendo le principali differenze"
         ],
         "giusta": "Falso, anche se recenti innovazioni in termini di velocit\u00e0 di trasmissione interna e sensibilit\u00e0 dei sensori stanno riducendo le principali differenze"
@@ -1232,16 +1204,6 @@
         ],
         "giusta": "Mettere a fuoco ma non ottenere magnificazione"
     },
-    "134": {
-        "domanda": "Quali delle affermazioni che seguono \u00e8 la pi\u00f9 corretta",
-        "risposte": [
-            "Almeno una delle precedenti",
-            "Nessuna delle precedenti.",
-            "Solo la prima \u00e8 corretta",
-            "Tutte le precedenti"
-        ],
-        "giusta": "Tutte le precedenti"
-    },
     "135": {
         "domanda": "Nel calcolo della distanza di matching fra due iriscode A e B usando le relative maschere MA e MB, si ha",
         "risposte": [
@@ -1256,8 +1218,6 @@
         "domanda": "Le feature biometriche estratte dalla voce per fare identificazione sono estratte tipicamente esaminando l\u2019energia del segnale in particolari bande dello spettro sonoro",
         "risposte": [
             "Falso",
-            "Nessuna delle precedenti.",
-            "Tutte le precedenti",
             "Vero"
         ],
         "giusta": "Vero"
@@ -1266,7 +1226,6 @@
         "domanda": "Il sistema AFIS italiano contiene impronte di circa 750.000 persone schedate ed esclusivamente da scene del crimine",
         "risposte": [
             "Vero",
-            "Nessuna delle precedenti.",
             "Falso, sono meno di 750.000",
             "Falso"
         ],
@@ -1277,7 +1236,6 @@
         "risposte": [
             "Vero",
             "Vero, assieme ai filtri di Gabor",
-            "Tutte le precedenti",
             "Falso"
         ],
         "giusta": "Falso"
@@ -1311,16 +1269,6 @@
         ],
         "giusta": "Alle impronte digitali in toni di grigio per trovare le minutie"
     },
-    "142": {
-        "domanda": "Alimentare la profondit\u00e0 di campo di fuoco di un sistema critico per la detezione della impronta a contatto mediante la chiusura del diaframma",
-        "risposte": [
-            "Aumentare la profondit\u00e0 di campo \u00e8 irrilevante in questo contesto",
-            "Nessuna delle precedenti.",
-            "Solo la prima \u00e8 corretta",
-            "Entrambe le precedenti"
-        ],
-        "giusta": "Entrambe le precedenti"
-    },
     "143": {
         "domanda": "\u00c8 possibile creare un sistema biometrico per l\u2019iride completo di tutte le parti ottiche miniaturizzato in pochi millimetri",
         "risposte": [
@@ -1336,7 +1284,6 @@
         "risposte": [
             "Vero",
             "Vero, ma solo fino ad una certa soglia",
-            "Solo la prima \u00e8 corretta",
             "Falso"
         ],
         "giusta": "Falso"
@@ -1345,8 +1292,6 @@
         "domanda": "La biometria del volto non pu\u00f2 essere realizzata attraverso filtri ottici che permettono analisi su bande ottiche diverse",
         "risposte": [
             "Vero",
-            "Nessuna delle precedenti.",
-            "Solo la prima \u00e8 corretta",
             "Falso, analizzando immagini acquisite con ottiche diverse si possono apprezzare caratteristiche biometriche utili"
         ],
         "giusta": "Falso, analizzando immagini acquisite con ottiche diverse si possono apprezzare caratteristiche biometriche utili"
@@ -1356,10 +1301,9 @@
         "risposte": [
             "Non ha rilevanza ai fini biometrici",
             "Dipende dalla risoluzione del sensore",
-            "Tutte le precedenti",
-            "Si misura"
+            "Si misura in mm ed è fondamentale"
         ],
-        "giusta": "Si misura"
+        "giusta": "Si misura in mm ed è fondamentale"
     },
     "147": {
         "domanda": "I sistemi pi\u00f9 moderni basati su tecnologie ottiche per il palmo riescono a funzionare",
@@ -1386,7 +1330,6 @@
         "risposte": [
             "Falso",
             "Falso, \u00e8 un problema dello spatial aliasing",
-            "Solo la prima \u00e8 corretta",
             "Vero"
         ],
         "giusta": "Vero"
@@ -1573,6 +1516,8 @@
     "169": {
         "domanda": "Quali sono i passaggi per l\u2019estrazione delle feature?",
         "risposte": [
+            "Codifica, estrazione delle feature, filtraggio iniziale, manipolazione delle immagini",
+            "Manipolazione delle immagini, codifica, filtraggio iniziale, memorizzazione",
             "Filtraggio iniziale, manipolazione delle immagini, estrazione delle feature, codifica."
         ],
         "giusta": "Filtraggio iniziale, manipolazione delle immagini, estrazione delle feature, codifica."
@@ -1947,6 +1892,8 @@
     "212": {
         "domanda": "Come sono composte le lenti liquide?",
         "risposte": [
+            "Sono composte da un unico fluido magnetico che si espande o si contrae a seconda della temperatura interna",
+            "Sono composte da una serie di micro-specchi meccanici",
             "Sono composte da Due fluidi isodensi contenuti al suo interno che ne modificano la curvatura a seconda della tensione elettrica che li attraversa, riuscendo cos\u00ec a risolvere il problema della messa a fuoco in ottica piccole"
         ],
         "giusta": "Sono composte da Due fluidi isodensi contenuti al suo interno che ne modificano la curvatura a seconda della tensione elettrica che li attraversa, riuscendo cos\u00ec a risolvere il problema della messa a fuoco in ottica piccole"
@@ -2965,7 +2912,9 @@
     "327": {
         "domanda": "Quale \u00e8 la procedura degli algoritmi genetici?",
         "risposte": [
-            "\u2022 Una serie iniziale di soluzioni casuali \u00e8 classificata in base alla capacit\u00e0 di risolvere il problema attuale \u2022 Le soluzioni migliori vengono quindi incrociate e mutate per formare un nuovo set \u2022 La classificazione e la formazione di nuove soluzioni continua fino a quando non viene trovata una soluzione sufficientemente valida"
+            "\u2022 Una serie iniziale di soluzioni casuali \u00e8 classificata in base alla capacit\u00e0 di risolvere il problema attuale \u2022 Le soluzioni migliori vengono quindi incrociate e mutate per formare un nuovo set \u2022 La classificazione e la formazione di nuove soluzioni continua fino a quando non viene trovata una soluzione sufficientemente valida",
+           "Si genera un'unica soluzione ottimale iniziale e la si modifica iterativamente aggiungendo rumore gaussiano fino alla convergenza",
+            "Si analizzano le soluzioni passate memorizzate in un database e si applica un modello di regressione lineare per predire la soluzione futura"
         ],
         "giusta": "\u2022 Una serie iniziale di soluzioni casuali \u00e8 classificata in base alla capacit\u00e0 di risolvere il problema attuale \u2022 Le soluzioni migliori vengono quindi incrociate e mutate per formare un nuovo set \u2022 La classificazione e la formazione di nuove soluzioni continua fino a quando non viene trovata una soluzione sufficientemente valida"
     },
@@ -3012,6 +2961,8 @@
     "333": {
         "domanda": "Da cosa \u00e8 composto un agente software?",
         "risposte": [
+            "Esclusivamente da un database centrale di regole statiche e da un'interfaccia utente grafica",
+            "Da un insieme di funzioni matematiche di regressione prive di interazione diretta con l'esterno",
             "Memoria e la capacit\u00e0 di agire nel suo mondo basato su di esso, Sensori per percepire informazioni dal suo ambiente, Attuatori per influenzare il mondo esterno, La capacit\u00e0 di sondare le azioni."
         ],
         "giusta": "Memoria e la capacit\u00e0 di agire nel suo mondo basato su di esso, Sensori per percepire informazioni dal suo ambiente, Attuatori per influenzare il mondo esterno, La capacit\u00e0 di sondare le azioni."
@@ -3035,14 +2986,18 @@
     "336": {
         "domanda": "A cosa serve l\u2019inference engine (motore dell\u2019inferenza)?",
         "risposte": [
-            "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l\u2019inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo."
+            "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l\u2019inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo.",
+            "Serve esclusivamente a memorizzare i dati grezzi in ingresso senza effettuare alcuna elaborazione logica",
+            "È un modulo hardware dedicato all'accelerazione grafica e al rendering delle immagini biometriche"
         ],
         "giusta": "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l\u2019inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo."
     },
     "337": {
         "domanda": "un sistema neuro-fuzzy, quali e quanti livelli ha?",
         "risposte": [
-            "In generale, un sistema neuro-fuzzy ha livelli di input e output e tre livelli nascosti che rappresentano funzioni di appartenenza e regole fuzzy."
+            "In generale, un sistema neuro-fuzzy ha livelli di input e output e tre livelli nascosti che rappresentano funzioni di appartenenza e regole fuzzy.",
+            "Ha un solo livello di input e un livello di output, senza alcuno strato intermedio o nascosto",
+            "È composto da un numero infinito di livelli densi che estraggono feature geometriche profonde"
         ],
         "giusta": "In generale, un sistema neuro-fuzzy ha livelli di input e output e tre livelli nascosti che rappresentano funzioni di appartenenza e regole fuzzy."
     },
@@ -3082,7 +3037,7 @@
         "giusta": "Una misura semplice ma efficace per valutare la somiglianza o dissimilarit\u00c3\u00a0 tra campioni"
     },
     "342": {
-        "domanda": "In KNN con dimensione di set di dati ridotto, \u00e8 pi\u00f9 performante?",
+        "domanda": "In KNN, se la dimensione di set di dati è ridotta, risulta pi\u00f9 performante?",
         "risposte": [
             "Vero",
             "Falso"
